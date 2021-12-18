@@ -71,28 +71,28 @@ while True:
     for kk in jogo:
         for ll in kk:
             if jogo[0][0] == "O" and jogo[0][1] == "O" and jogo[0][2] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[0][0] == "O" and jogo[1][0] == "O" and jogo[2][0] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[0][0] == "O" and jogo[1][1] == "O" and jogo[1][2] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[1][0] == "O" and jogo[1][1] == "O" and jogo[1][2] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[0][1] == "O" and jogo[1][1] == "O" and jogo[2][1] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[0][2] == "O" and jogo[1][1] == "O" and jogo[2][0] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[2][0] == "O" and jogo[2][1] == "O" and jogo[2][2] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif jogo[0][2] == "O" and jogo[1][2] == "O" and jogo[2][2] == "O":
-                print(f'\nVencedor: X')
+                print(f'\nVencedor: O')
                 exit(1)
             elif count == 9:
                 print("\nVelha.")
